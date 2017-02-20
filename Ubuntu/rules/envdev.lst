@@ -1,0 +1,9 @@
+! layout
+...
+  typo-ru         Russian (Typograhic)
+  typo-uk         Ukrainian (Typographic)
+
+! variant
+..
+  typo_ukrainian  typo-ru: Russian (Typographic + Ukrainian)
+  typo_russian    typo-uk: Ukrainian (Typographic + Russian)
