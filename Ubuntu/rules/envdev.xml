@@ -1,25 +1,4 @@
-<!--typo-start-->
-    <layout>
-      <configItem>
-        <name>typo-ru</name>
-        <shortDescription>Russian (Typographic)</shortDescription>
-        <description>Russian (Typographic)</description>
-        <languageList>
-          <iso639Id>rus</iso639Id>
-        </languageList>
-        <countryList>
-          <iso3166Id>RU</iso3166Id>
-        </countryList>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>typo_ukrainian</name>
-            <description>Russian (Typographic + Ukrainian)</description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
+<!--typo-uk-start-->
     <layout>
       <configItem>
         <name>typo-uk</name>
@@ -35,10 +14,24 @@
       <variantList>
         <variant>
           <configItem>
-            <name>typo_russian</name>
+            <name>typo-uk-russian</name>
             <description>Ukrainian (Typographic + Russian)</description>
           </configItem>
         </variant>
       </variantList>
     </layout>
-<!--typo-end-->
+    <layout>
+      <configItem>
+        <name>typo-ru-ukrainian</name>
+        <shortDescription>Russian (Typographic + Ukrainian)</shortDescription>
+        <description>Russian (Typographic + Ukrainian)</description>
+        <languageList>
+          <iso639Id>rus</iso639Id>
+        </languageList>
+        <countryList>
+          <iso3166Id>RU</iso3166Id>
+        </countryList>
+      </configItem>
+      <variantList/>
+    </layout>
+<!--typo-uk-end-->

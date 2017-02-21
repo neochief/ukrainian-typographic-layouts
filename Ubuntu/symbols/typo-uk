@@ -1,9 +1,9 @@
 partial default alphanumeric_keys
-xkb_symbols "typo" {
+xkb_symbols "typo-uk" {
     name[Group1]= "Ukrainian (Typographic)";
 
     // 1st keyboard row
-    key <TLDE> { [rightsinglequotemark,        NoSymbol,              NoSymbol,             dead_grave ] }; // "~"
+    key <TLDE> { [        apostrophe,          NoSymbol,              NoSymbol,             dead_grave ] }; // "~"
     key <AE01> { [                 1,            exclam,           onesuperior,             exclamdown ] }; // "1""
     key <AE02> { [                 2,          quotedbl,           twosuperior,                onehalf ] }; // "2"
     key <AE03> { [                 3,        numbersign,         threesuperior,               onethird ] }; // "3"
@@ -56,7 +56,7 @@ xkb_symbols "typo" {
     key <AB07> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,                 U2212,    enfilledcircbullet  ] }; // "m" // U+2212 MINUS SIGN (−)
     key <AB08> { [       Cyrillic_be,       Cyrillic_BE,         guillemotleft,                  less  ] }; // "," // +S<
     key <AB09> { [       Cyrillic_yu,       Cyrillic_YU,        guillemotright,               greater  ] }; // "." // +S>
-    key <AB10> { [             slash,          question,              division,            dead_acute  ] }; // "/" // +÷
+    key <AB10> { [            period,             comma,              division,            dead_acute  ] }; // "/" // +÷
 
     // 5th keyboard row
     key <SPCE> { [             space,             space,          nobreakspace,          nobreakspace  ] }; // " "
@@ -66,11 +66,11 @@ xkb_symbols "typo" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "typo_russian" {
+xkb_symbols "typo-uk-russian" {
     name[Group1]= "Ukrainian (Typographic + Russian)";
 
     // 1st keyboard row
-    key <TLDE> { [rightsinglequotemark,     Cyrillic_IO,           Cyrillic_io,             dead_grave ] }; // "~"
+    key <TLDE> { [        apostrophe,       Cyrillic_IO,           Cyrillic_io,             dead_grave ] }; // "~"
     key <AE01> { [                 1,            exclam,           onesuperior,             exclamdown ] }; // "1""
     key <AE02> { [                 2,          quotedbl,           twosuperior,                onehalf ] }; // "2"
     key <AE03> { [                 3,        numbersign,         threesuperior,               onethird ] }; // "3"
@@ -123,7 +123,7 @@ xkb_symbols "typo_russian" {
     key <AB07> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,                 U2212,    enfilledcircbullet  ] }; // "m" // U+2212 MINUS SIGN (−)
     key <AB08> { [       Cyrillic_be,       Cyrillic_BE,         guillemotleft,                  less  ] }; // "," // +S<
     key <AB09> { [       Cyrillic_yu,       Cyrillic_YU,        guillemotright,               greater  ] }; // "." // +S>
-    key <AB10> { [             slash,          question,              division,            dead_acute  ] }; // "/" // +÷
+    key <AB10> { [            period,             comma,              division,            dead_acute  ] }; // "/" // +÷
 
     // 5th keyboard row
     key <SPCE> { [             space,             space,          nobreakspace,          nobreakspace  ] }; // " "
