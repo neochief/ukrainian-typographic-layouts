@@ -19,7 +19,7 @@ xkb_symbols "typo-ru-ukrainian" {
 
     // 2nd keyboard row
     key <AD01> { [   Cyrillic_shorti,   Cyrillic_SHORTI,              NoSymbol,             dead_breve  ] }; // "q"
-    key <AD02> { [      Cyrillic_tse,      Cyrillic_TSE,              NoSymbol,               NoSymbol  ] }; // "w"
+    key <AD02> { [      Cyrillic_tse,      Cyrillic_TSE,                 U0475,                  U0474  ] }; // "w" // U+0475 CYRILLIC SMALL LETTER IZHITSA // U+0474 CYRILLIC CAPITAL LETTER IZHITSA
     key <AD03> { [        Cyrillic_u,        Cyrillic_U,              EuroSign,               NoSymbol  ] }; // "e"
     key <AD04> { [       Cyrillic_ka,       Cyrillic_KA,            registered,         dead_abovering  ] }; // "r"
     key <AD05> { [       Cyrillic_ie,       Cyrillic_IE,             trademark,               NoSymbol  ] }; // "t"
@@ -46,7 +46,7 @@ xkb_symbols "typo-ru-ukrainian" {
     key <BKSL> { [             slash,         backslash,          bracketright,            braceright  ] }; // "\"
 
     // 4th keyboard row
-    key <LSGT> { [             slash,         backslash,                 U0475,                 U0474  ] }; // "\" // U+0475 CYRILLIC SMALL LETTER IZHITSA // U+0474 CYRILLIC CAPITAL LETTER IZHITSA
+    key <LSGT> { [             slash,         backslash,              NoSymbol,              NoSymbol  ] }; // "\"
     key <AB01> { [       Cyrillic_ya,       Cyrillic_YA,               section,          dead_cedilla  ] }; // "z"
     key <AB02> { [      Cyrillic_che,      Cyrillic_CHE,              multiply,                 U22C5  ] }; // "x" // U+22C5 DOT OPERATOR (·)
     key <AB03> { [       Cyrillic_es,       Cyrillic_ES,             copyright,                  cent  ] }; // "c"
