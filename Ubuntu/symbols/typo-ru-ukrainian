@@ -6,7 +6,7 @@ xkb_symbols "typo-ru-ukrainian" {
     key <TLDE> { [       Cyrillic_io,       Cyrillic_IO,            apostrophe,             dead_grave ] }; // "~"
     key <AE01> { [                 1,            exclam,           onesuperior,             exclamdown ] }; // "1""
     key <AE02> { [                 2,          quotedbl,           twosuperior,                onehalf ] }; // "2"
-    key <AE03> { [                 3,        numbersign,         threesuperior,               onethird ] }; // "3"
+    key <AE03> { [                 3,        numerosign,         threesuperior,               onethird ] }; // "3"
     key <AE04> { [                 4,         semicolon,                dollar,             onequarter ] }; // "4"
     key <AE05> { [                 5,           percent,                 U2030,               NoSymbol ] }; // "5" // U+2030 PER MILLE SIGN (‰)
     key <AE06> { [                 6,             colon,               uparrow,        dead_circumflex ] }; // "6"
