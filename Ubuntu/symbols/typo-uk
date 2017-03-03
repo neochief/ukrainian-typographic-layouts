@@ -3,7 +3,7 @@ xkb_symbols "typo-uk" {
     name[Group1]= "Ukrainian (Typographic)";
 
     // 1st keyboard row
-    key <TLDE> { [        apostrophe,          NoSymbol,              NoSymbol,             dead_grave ] }; // "~"
+    key <TLDE> { [        apostrophe,       Cyrillic_IO,           Cyrillic_io,             dead_grave ] }; // "~"
     key <AE01> { [                 1,            exclam,           onesuperior,             exclamdown ] }; // "1""
     key <AE02> { [                 2,          quotedbl,           twosuperior,                onehalf ] }; // "2"
     key <AE03> { [                 3,        numbersign,         threesuperior,               onethird ] }; // "3"
@@ -12,8 +12,8 @@ xkb_symbols "typo-uk" {
     key <AE06> { [                 6,             colon,               uparrow,        dead_circumflex ] }; // "6"
     key <AE07> { [                 7,          question,             ampersand,           questiondown ] }; // "7" // +&
     key <AE08> { [                 8,          asterisk,              infinity,              oneeighth ] }; // "8" // +S⅛
-    key <AE09> { [                 9,         parenleft,             leftarrow,               NoSymbol ] }; // "9"
-    key <AE10> { [                 0,        parenright,            rightarrow,               NoSymbol ] }; // "0"
+    key <AE09> { [                 9,         parenleft,             leftarrow,                  U2329 ] }; // "9" // U+2329 LEFT-POINTING ANGLE BRACKET
+    key <AE10> { [                 0,        parenright,            rightarrow,                  U232a ] }; // "0" // U+232A RIGHT-POINTING ANGLE BRACKET
     key <AE11> { [             minus,        underscore,                emdash,                 endash ] }; // "-"
     key <AE12> { [             equal,              plus,              notequal,              plusminus ] }; // "="
 
@@ -41,8 +41,8 @@ xkb_symbols "typo-uk" {
     key <AC07> { [        Cyrillic_o,        Cyrillic_O,    doublelowquotemark,    singlelowquotemark  ] }; // "j" // +S‚
     key <AC08> { [       Cyrillic_el,       Cyrillic_EL,   leftdoublequotemark,   leftsinglequotemark  ] }; // "k"
     key <AC09> { [       Cyrillic_de,       Cyrillic_DE,  rightdoublequotemark,  rightsinglequotemark  ] }; // "l"
-    key <AC10> { [      Cyrillic_zhe,      Cyrillic_ZHE,   leftsinglequotemark,        dead_diaeresis  ] }; // ";"
-    key <AC11> { [      Ukrainian_ie,      Ukrainian_IE,  rightsinglequotemark,              NoSymbol  ] }; // "'"
+    key <AC10> { [      Cyrillic_zhe,      Cyrillic_ZHE,              NoSymbol,        dead_diaeresis  ] }; // ";"
+    key <AC11> { [      Ukrainian_ie,      Ukrainian_IE,              NoSymbol,              NoSymbol  ] }; // "'"
     key <BKSL> { [             slash,         backslash,          bracketright,            braceright  ] }; // "\"
 
     // 4th keyboard row
@@ -108,7 +108,7 @@ xkb_symbols "typo-uk-russian" {
     key <AC07> { [        Cyrillic_o,        Cyrillic_O,    doublelowquotemark,    singlelowquotemark  ] }; // "j" // +S‚
     key <AC08> { [       Cyrillic_el,       Cyrillic_EL,   leftdoublequotemark,   leftsinglequotemark  ] }; // "k"
     key <AC09> { [       Cyrillic_de,       Cyrillic_DE,  rightdoublequotemark,  rightsinglequotemark  ] }; // "l"
-    key <AC10> { [      Cyrillic_zhe,      Cyrillic_ZHE,   leftsinglequotemark,        dead_diaeresis  ] }; // ";"
+    key <AC10> { [      Cyrillic_zhe,      Cyrillic_ZHE,              NoSymbol,        dead_diaeresis  ] }; // ";"
     key <AC11> { [      Ukrainian_ie,      Ukrainian_IE,            Cyrillic_e,            Cyrillic_E  ] }; // "'"
     key <BKSL> { [             slash,         backslash,          bracketright,            braceright  ] }; // "\"
 

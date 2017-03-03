@@ -41,7 +41,7 @@ xkb_symbols "typo-ru-ukrainian" {
     key <AC07> { [        Cyrillic_o,        Cyrillic_O,    doublelowquotemark,    singlelowquotemark  ] }; // "j" // +S‚
     key <AC08> { [       Cyrillic_el,       Cyrillic_EL,   leftdoublequotemark,   leftsinglequotemark  ] }; // "k"
     key <AC09> { [       Cyrillic_de,       Cyrillic_DE,  rightdoublequotemark,  rightsinglequotemark  ] }; // "l"
-    key <AC10> { [      Cyrillic_zhe,      Cyrillic_ZHE,   leftsinglequotemark,        dead_diaeresis  ] }; // ";"
+    key <AC10> { [      Cyrillic_zhe,      Cyrillic_ZHE,              NoSymbol,        dead_diaeresis  ] }; // ";"
     key <AC11> { [        Cyrillic_e,        Cyrillic_E,          Ukrainian_ie,          Ukrainian_IE  ] }; // "'"
     key <BKSL> { [             slash,         backslash,          bracketright,            braceright  ] }; // "\"
 
