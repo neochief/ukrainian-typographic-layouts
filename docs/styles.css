@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+    font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default
+}
+
+.keyboard-bg {
+    background-color: #eeeeee;
+    border-radius: 6px;
+    border: solid 1px #ddd;
+    border-top: none;
+    border-bottom: solid 3px #ccc;
+    padding: 15px;
+}
+
+.keycap-container {
+    position: relative;
+}
+
+.keyboard-bg, .keycap-container {
+    height: 266px;
+    width: 806px;
+}
+
+.keycap, .keylabels, .keylabel {
+    position: absolute;
+    box-sizing: border-box;
+    background-clip: padding-box
+}
+
+.keycap {
+    font-size: 16px;
+    color: #444;
+    position: absolute;
+    border: solid 1px #bbb;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    box-shadow: inset 0 -2px 0 #ccc;
+}
+
+.keylabels {
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 5px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.keylevel2 {
+
+}
+
+.keylevel4 {
+    right:0;
+}
+
+.keylevel1 {
+    bottom:0;
+}
+
+.keylevel3 {
+    right:0;
+    bottom:0;
+}
+
+.keylevel4 .keytext, .keylevel3 .keytext {
+    color: red;
+}
+
+.dead {
+    background: #FFECE5;
+    padding: 2px 3px;
+    border-radius: 2px;
+    max-width: 7px;
+    margin:auto;
+    line-height: 0.8em;
+}
+
+.global1 .keylevel1, .global2 .keylevel2, .global3 .keylevel3, .global4 .keylevel4 {
+    font-size: 16px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.global1 .keylevel2, .global1 .keylevel3, .global1 .keylevel4,
+.global2 .keylevel1, .global2 .keylevel3, .global2 .keylevel4,
+.global3 .keylevel1, .global3 .keylevel2, .global3 .keylevel4,
+.global4 .keylevel1, .global4 .keylevel2, .global4 .keylevel3 {
+    display: none;
+}
+
+.key-special {
+    font-size: 16px;
+    background-color: #ddd;
+    color: #999;
+}
+
+.key-special .keylevel2 {
+    top: 10px;
+    left: 5px;
+    right: 0;
+    text-align: left;
+    display: block;
+}
+
+.key-capslock  .keylevel2 {
+    top: 2px;
+}
+
+.key-winleft .keylabel, .key-winright .keylabel, .key-menuright .keylabel {
+    text-align: center;
+    left:0;
+    right:0;
+}
+
+.key-altgr {
+    font-size: 16px;
+    background-color: #FF6633;
+    color: #992600;
+    border-color: #992600;
+    box-shadow: inset 0 -2px 0 #E63900;
+}
+
