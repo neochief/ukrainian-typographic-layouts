@@ -165,7 +165,7 @@ layouts["typo_part"] = {
     "j": ["„", "‚"],
     "k": ["“", "‘"],
     "l": ["”", "’"],
-    "semicolon": ["‘", "dead:¨"],
+    "semicolon": ["", "dead:¨"],
     "quote": ["’", ""],
     "backslash": ["]", "}"],
     "backslashleft": ["|", "¦"],
@@ -194,6 +194,7 @@ layouts["typo_part_uk_ru"] = {
 layouts["typo_part_ru_uk"] = {
     "tilde": ["'", "dead:`"],
     "s": ["і", "І"],
+    "u": ["ґ", "Ґ"],
     "sqbracketright": ["ї", "Ї"],
     "quote": ["є", "Є"]
 };

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts</string>
+	<key>CFBundleName</key>
+	<string>UkrainianTypographicLayouts</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>KLInfo_Russian (Typographic + Ukrainian)</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts.russian(typographic+ukrainian)</string>
+		<key>TISIntendedLanguage</key>
+		<string>ru</string>
+	</dict>
+	<key>KLInfo_Ukrainian (Typographic + Russian)</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts.ukrainian(typographic+russian)</string>
+		<key>TISIntendedLanguage</key>
+		<string>uk</string>
+	</dict>
+	<key>KLInfo_Ukrainian (Typographic)</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts.ukrainian(typographic)</string>
+		<key>TISIntendedLanguage</key>
+		<string>uk</string>
+	</dict>
+</dict>
+</plist>
