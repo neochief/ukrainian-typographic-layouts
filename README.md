@@ -53,7 +53,7 @@
     sudo apt-get -qq -y install wget && \
     wget -q -O /tmp/ukrainian-typographic-layouts.tar.gz https://github.com/neochief/ukrainian-typographic-layouts/archive/master.tar.gz && \
     tar xf /tmp/ukrainian-typographic-layouts.tar.gz -C /tmp && \
-    /tmp/ukrainian-typographic-layouts/Ubuntu/install.sh
+    /tmp/ukrainian-typographic-layouts-master/Ubuntu/install.sh
     /
     ```
 
