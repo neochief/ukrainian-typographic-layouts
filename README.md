@@ -45,7 +45,7 @@
 3. Перетягніть розкладки в папку-ссилку, доступну всередині архіву.
 4. Зайдіть в System preferences > Keyboard > Input Sources та активуйте нові розкладки. Їх можна знайти, всередині группи украінської та російської мов.
 
-#### Linux
+#### Linux (Ubuntu)
 
 1. Скопіюйте команду наведену нижче, включаючи останній слеш:
 
@@ -53,7 +53,8 @@
     sudo apt-get -qq -y install wget && \
     wget -q -O /tmp/ukrainian-typographic-layouts.tar.gz https://github.com/neochief/ukrainian-typographic-layouts/archive/master.tar.gz && \
     tar xf /tmp/ukrainian-typographic-layouts.tar.gz -C /tmp && \
-    /tmp/ukrainian-typographic-layouts-master/Ubuntu/install.sh
+    cd /tmp/ukrainian-typographic-layouts-master/Ubuntu && \
+    sudo /tmp/ukrainian-typographic-layouts-master/Ubuntu/install.sh
     /
     ```
 
