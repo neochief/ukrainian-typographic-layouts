@@ -71,6 +71,6 @@
 
 - Англійська та російська [розкладки Іллі Бірмана для Ubuntu](https://github.com/neochief/birman-typography-layouts-for-ubuntu).
 
-## Питанная
+## Питання
 
 - Більшість питань по розкладкам можна дізнатися [тут](https://ilyabirman.ru/projects/typography-layout/faq/).
