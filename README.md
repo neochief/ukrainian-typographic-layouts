@@ -2,6 +2,43 @@
 
 Дані розкладки базуються на типографічній розкладці [Іллі Бірмана](https://ilyabirman.ru/projects/typography-layout/), з де-якими модифікаціями, які полегшують роботу з програмним кодом (наприклад, трикутні лапки).
 
+## Установка
+
+#### Windows
+
+1. Скачайте цей репозиторій ([як?](docs/download.png)) на свій комп'ютер.
+2. Зайдіть в папку Windows/dst та виберіть одну з розкладок.
+3. Запустіть файл setup.exe та виконуйте інструкції.
+4. Активуйте розкладку в опціях клавіатури.
+
+#### Mac
+
+1. Скачайте цей репозиторій ([як?](docs/download.png)) на свій комп'ютер.
+2. Зайдіть в папку Mac/dst та відкрийте архів з розкладками (UkrainianTypographicLayouts.dmg).
+3. Запустіть програму "Keyboard Installer.app" всередині архіву та перетягніть файл "UkrainianTypographicLayouts.bundle" у вікно, що відкрилося. У цьому вікні виберіть "Install for current user" для встановки розкладки для даного користувача системи.
+4. Зайдіть в System preferences > Keyboard > Input Sources та активуйте нові розкладки. Їх можна знайти, всередині группи украінської та російської мов.
+
+#### Linux (Ubuntu)
+
+1. Скопіюйте команду наведену нижче, включаючи останній слеш:
+
+    ```
+    sudo apt-get -qq -y install wget && \
+    wget -q -O /tmp/ukrainian-typographic-layouts.tar.gz https://github.com/neochief/ukrainian-typographic-layouts/archive/master.tar.gz && \
+    tar xf /tmp/ukrainian-typographic-layouts.tar.gz -C /tmp && \
+    cd /tmp/ukrainian-typographic-layouts-master/Ubuntu && \
+    sudo /tmp/ukrainian-typographic-layouts-master/Ubuntu/install.sh
+    /
+    ```
+
+2. Відкрийте термінал (Ctrl + Alt + T), вставте команду і натисніть клавішу Enter.
+
+    Ця команда встановить і включить обидві розкладки в системі, активує клавішу альтернативних символів (правий Alt), а також (опціонально) встановить перемикання розкладок через Alt + Shift.
+
+3. Дочекайтеся зеленого повідомлення про успіх. В процесі установки може знадобитися введення пароля.
+
+## Карта розкладок
+
 ### Лише українська
 
 ![](docs/screenshot-uk.png)
@@ -29,47 +66,12 @@
 ![](docs/screenshot-ru-uk.png)
 
 
-## Установка
-
-#### Windows
-
-1. Скачайте цей репозиторій на свій комп'ютер.
-2. Зайдіть в папку Windows/dst та виберіть одну з розкладок.
-3. Запустіть файл setup.exe та виконуйте інструкції.
-4. Активуйте розкладку в опціях клавіатури.
-
-#### Mac
-
-1. Скачайте цей репозиторій на свій комп'ютер.
-2. Зайдіть в папку Mac/dst та відкрийте архів з розкладками.
-3. Перетягніть розкладки в папку-ссилку, доступну всередині архіву.
-4. Зайдіть в System preferences > Keyboard > Input Sources та активуйте нові розкладки. Їх можна знайти, всередині группи украінської та російської мов.
-
-#### Linux (Ubuntu)
-
-1. Скопіюйте команду наведену нижче, включаючи останній слеш:
-
-    ```
-    sudo apt-get -qq -y install wget && \
-    wget -q -O /tmp/ukrainian-typographic-layouts.tar.gz https://github.com/neochief/ukrainian-typographic-layouts/archive/master.tar.gz && \
-    tar xf /tmp/ukrainian-typographic-layouts.tar.gz -C /tmp && \
-    cd /tmp/ukrainian-typographic-layouts-master/Ubuntu && \
-    sudo /tmp/ukrainian-typographic-layouts-master/Ubuntu/install.sh
-    /
-    ```
-
-2. Відкрийте термінал (Ctrl + Alt + T), вставте команду і натисніть клавішу Enter.
-
-    Ця команда встановить і включить обидві розкладки в системі, активує клавішу альтернативних символів (правий Alt), а також (опціонально) встановить перемикання розкладок через Alt + Shift.
-
-3. Дочекайтеся зеленого повідомлення про успіх. В процесі установки може знадобитися введення пароля.
-
-
 ## Інші розкладки
 
 - Англійську типографічну розкладку можна взяти у [Іллі Бірмана](https://ilyabirman.ru/projects/typography-layout/).
 
 - Англійська та російська [розкладки Іллі Бірмана для Ubuntu](https://github.com/neochief/birman-typography-layouts-for-ubuntu).
+
 
 ## Питання
 

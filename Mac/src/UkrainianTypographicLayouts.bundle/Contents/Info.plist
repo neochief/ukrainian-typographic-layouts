@@ -10,6 +10,8 @@
 	<string>1.0</string>
 	<key>KLInfo_Russian (Typographic + Ukrainian)</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts.russian(typographic+ukrainian)</string>
 		<key>TISIntendedLanguage</key>
@@ -17,6 +19,8 @@
 	</dict>
 	<key>KLInfo_Ukrainian (Typographic + Russian)</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts.ukrainian(typographic+russian)</string>
 		<key>TISIntendedLanguage</key>
@@ -24,6 +28,8 @@
 	</dict>
 	<key>KLInfo_Ukrainian (Typographic)</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts.ukrainian(typographic)</string>
 		<key>TISIntendedLanguage</key>
