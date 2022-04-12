@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 351 on 2022-03-28 at 15:53 (GMT+3)-->
+<!--Last edited by Ukelele version 351 on 2022-04-13 at 01:03 (CEST)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="126" id="-20913" name="Ukrainian (Typographic + Russian)" maxout="3">
     <layouts>

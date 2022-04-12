@@ -35,5 +35,23 @@
 		<key>TISIntendedLanguage</key>
 		<string>uk</string>
 	</dict>
+	<key>KLInfo_Ukrainian - Legacy (Typographic + Russian)</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts.ukrainian-legacy(typographic+russian)</string>
+		<key>TISIntendedLanguage</key>
+		<string>uk</string>
+	</dict>
+	<key>KLInfo_Ukrainian - Legacy (Typographic)</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.ukrainiantypographiclayouts.ukrainian-legacy(typographic)</string>
+		<key>TISIntendedLanguage</key>
+		<string>uk</string>
+	</dict>
 </dict>
 </plist>
